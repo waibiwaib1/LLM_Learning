@@ -1,0 +1,22 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local model and experiment output
+checkpoints/
+outputs/
+wandb/
+*.safetensors
+*.gguf
+
+# OS
+.DS_Store
+Thumbs.db
